@@ -28,16 +28,29 @@ Smart Traffic Prediction is an advanced machine learning solution designed to fo
 - Google Colab (Model Development)
 - Visual Studio Code (Application Development)
 
+## Dataset
+### Data Source
+- **Dataset**: Traffic Prediction Dataset
+- **Platform**: Kaggle
+- **Link**: [Kaggle Dataset - Traffic Prediction Dataset](https://www.kaggle.com/datasets/hasibullahaman/traffic-prediction-dataset/data)
+- **Description**: Comprehensive dataset containing vehicle count and traffic condition information used for training and validating the machine learning model.
+
 ## Project Structure
 ```
 smart-traffic-prediction/
 │
 ├── data/                 # Dataset directory
+│   └── traffic_data.csv  # Kaggle dataset
 ├── models/               # Trained model files
 ├── app.py                # Streamlit web application
 ├── requirements.txt      # Project dependencies
 └── README.md             # Project documentation
 ```
+
+### Data Preprocessing
+- Loaded and processed the Kaggle traffic prediction dataset
+- Performed exploratory data analysis
+- Cleaned and prepared data for machine learning model training
 
 ## Installation & Setup
 
@@ -69,5 +82,13 @@ streamlit run app.py
 - [ ] Implement more advanced machine learning algorithms
 - [ ] Create visualization dashboards
 
-### 💡 Insights
-This project demonstrates the power of machine learning in predicting traffic conditions, offering a robust solution for urban mobility analysis and management.
+### 💡 Dataset Insights
+- The Kaggle dataset provided a rich source of traffic-related features
+- Enabled comprehensive analysis of vehicle count and traffic conditions
+- Supported the development of a high-accuracy predictive model
+
+### 🌐 Data Source Attribution
+Special thanks to the Kaggle dataset contributor for providing the valuable traffic prediction dataset that made this project possible.
+
+### 💡 Project Insights
+This project demonstrates the power of machine learning in predicting traffic conditions, offering a robust solution for urban mobility analysis and management by leveraging high-quality datasets and advanced predictive techniques.
